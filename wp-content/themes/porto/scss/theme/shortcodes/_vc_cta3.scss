@@ -1,0 +1,55 @@
+/* Visual Composer Call to Action */
+.vc_general.vc_cta3 {
+    padding: 25px;
+}
+.vc_general.vc_cta3.vc_cta3-shape-rounded {
+    border-radius: 10px;
+}
+
+.vc_general.vc_cta3 h2 {
+    font-size: 1.8em;
+    font-weight: $font-weight-normal;
+    letter-spacing: normal;
+    line-height: 30px;
+}
+.vc_general.vc_cta3 h2,
+.vc_general.vc_cta3 h4 {
+    margin: 0 0 9px;
+}
+.vc_general.vc_cta3 p {
+    font-size: 1.2em;
+}
+
+@media (min-width: 768px) {
+    .vc_general.vc_cta3.vc_cta3-actions-right .vc_cta3-content {
+        width: 70%;
+        padding-#{$right}: 25px;
+        padding-#{$left}: 0;
+    }
+    .vc_general.vc_cta3.vc_cta3-actions-right .vc_cta3-actions {
+        width: 20%;
+    }
+    .vc_general.vc_cta3.vc_cta3-actions-left .vc_cta3-content {
+        width: 70%;
+        padding-#{$left}: 25px;
+        padding-#{$right}: 0;
+    }
+    .vc_general.vc_cta3.vc_cta3-actions-left .vc_cta3-actions {
+        width: 20%;
+    }
+}
+
+@media #{$screen-medium} {
+    .vc_general.vc_cta3.vc_cta3-actions-right .vc_cta3-actions {
+        padding-top: 20px;
+        > div:last-child {
+            margin-bottom: 0;
+        }
+    }
+    .vc_general.vc_cta3.vc_cta3-actions-left .vc_cta3-actions {
+        padding-bottom: 20px;
+        > div:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
